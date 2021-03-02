@@ -1,0 +1,43 @@
+.about {
+    font-size: 18px;
+}
+.about a {
+    font-weight: 500;
+    color: var(--primary);
+    transition: 0.4s;
+}
+
+.about a:hover {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.about a.disabled {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.about li {
+    margin-bottom: 5px;
+}
+
+.about h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about__exp:first-child {
+    margin-top: 40px;
+}
+
+.about__exp + .about__exp {
+    margin-top: 40px;
+}
+@media (max-width: 640px) {
+    .about {
+        font-size: 16px;
+    }
+    .about h2 {
+        font-size: 18px;
+    }
+}
